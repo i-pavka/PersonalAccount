@@ -1,0 +1,36 @@
+.navbarMain {
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  background-color: var(--color-bg-2);
+  border-radius: 16px;
+  text-align: center;
+  .navbarList {
+    padding-top: 16px;
+    .navbarListItem {
+      min-height: 50px;
+      padding: 10px;
+      .navItem {
+        color: white;
+        text-decoration: none;
+      }
+      .active {
+        background-color: var(--color-bg-3);
+        padding: 10px;
+        border-radius: 16px;
+      }
+    }
+  }
+}
+li, ul, {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
