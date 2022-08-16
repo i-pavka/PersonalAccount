@@ -1,0 +1,57 @@
+.loginMain {
+  color: var(--color-heading-1);
+  text-align: center;
+}
+
+.loginBlock,
+.infoBlock {
+  display: flex;
+  flex-direction: column;
+  & a {
+    font-size: 14px;
+    padding: 5px 8px;
+    border-radius: 4px;
+    border: 1px solid #00684A;
+    color: var(--color-heading-1);
+    background: var(--color-bg-4);
+    margin-left: 5px;
+    transition: all .3s;
+    &:hover {
+      border-radius: 19px;
+    }
+  }
+}
+
+.loginBlock {
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  .loginData {
+    margin-top: 10px;
+    border: 1px solid green;
+    border-radius: 12px;
+    & p {
+      margin: 10px;
+    }
+  }
+}
+
+// LoginForm
+.itemInputBlock {
+  height: 60px;
+  font-size: 12px;
+  color: red;
+}
+
+.checkBox {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.infoDiv {
+  height: 30px;
+  font-size: 14px;
+  color: red;
+}
